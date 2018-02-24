@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>党建系统 -- 智慧党建信息平台</title>
+    <link rel="stylesheet" href="../css/common.css?v=1.0">
+    <link rel="stylesheet" href="../css/index2.css?v=1.0">
+    <link rel="stylesheet" href="../css/font-awesome.min.css?v=1.0">
+</head>
+<body>
+    <header></header>
+    <div class="main">
+        <h1 class="main-head">
+            智慧党建综合平台
+        </h1>
+        <div class="main-menu">
+            <ul class="clearfix title" id="module">
+                <li>
+                    <span class="title-item active">党建宣传</span>
+                    <div class="content active">
+                        <img src="../images/module4.png" alt="" style="width:1080px;margin: 0px 60px;">
+                    </div>
+                </li>
+                <li>
+                    <span class="title-item">党建管理</span>
+                    <div class="content">
+                        <img src="../images/module3.png" style="width: 1020px;margin: 0 90px;" alt="">
+                    </div>
+                </li>
+                <li>
+                    <span class="title-item">党建服务</span>
+                    <div class="content">
+                        <img src="../images/module2.png" alt="">
+                        <img src="../images/module2_2.png" style="width: 1103px;height:181px;" alt="">
+                    </div>
+                </li>
+                <li>
+                    <span class="title-item">社区营造</span>
+                    <div class="content">
+                        <a href="index1.html" target="_blank">智慧党建(原)</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="title-item">社区自治</span>
+                    <div class="content">
+                        <a href="index1.html" target="_blank">智慧党建(原)</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="title-item">社区服务</span>
+                    <div class="content">6</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <div class="main clearfix">
+            <div class="dz-logo left">
+                <img src="../images/dz_logo.png" alt="">
+            </div>
+
+            <div class="web-info left">
+                主办单位: 成都市XX区组织部<br>
+                联系电话: 028-84481504 <br>
+                技术支持: 028-84481503
+            </div>
+        </div>
+    </footer>
+    <script src="../js/jquery.2.1.4.js"></script>
+    <script>
+        $(function () {
+            $('#module .title-item').off('click').on('click', function () {
+                var $this = $(this);
+                $('#module .content').hide();
+                $this.next().show();
+                $('#module .title-item').removeClass('active');
+                $this.addClass('active');
+
+            });
+        })
+    </script>
+</body>
+</html>

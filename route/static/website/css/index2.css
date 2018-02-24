@@ -1,0 +1,97 @@
+body{
+    background: url("../images/bg1.jpg");
+}
+.main{
+    width: 1200px;
+    margin: auto;
+}
+.main-head{
+    margin: 80px 0;
+    text-align: center;
+    font-size: 48px;
+    color: #ef0100;
+    text-shadow: 3px 3px 5px #ccc;
+}
+
+.main-menu{
+    height: 550px;
+}
+.main-menu .title{
+    border-radius: 5px;
+    height:40px;
+    line-height: 40px;
+    color: #eee;
+    background: #fd684d;
+    position: relative;
+}
+
+.main-menu .title li{
+    float: left;
+}
+
+.main-menu .title li .content{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+    left:0;
+    border-radius: 5px;
+}
+
+.main-menu .title li .content img{
+    width: 1100px;
+    margin: 15px 60px;
+}
+
+
+.main-menu .title li .content.active{
+    display: block;
+}
+
+.main-menu .title li span{
+    height:100%;
+    display: inline-block;
+    text-align: center;
+    font-size: 23px;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.main-menu .title li span:hover,.main-menu .title li span.active{
+    background-color: #eb0100;
+    color: #ffffff;
+}
+
+
+
+footer{
+    margin-top: 30px;
+    background: url("../images/footer_bg.png") left top repeat-x;
+    width: 100%;
+    line-height: 24px;
+    height: 80px;
+    padding: 10px 0;
+}
+
+footer .dz-logo{
+    width: 100px;
+}
+
+footer .web-info{
+    width:400px;
+    color: #eee;
+    font-size:12px;
+    margin-left: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
